@@ -11,7 +11,7 @@ class FactTestCase(unittest.TestCase):
 
     def test_fac_negative(self):
         func_output = fact(-8)
-        self.assertEqual(func_output, -40320)
+        equal = self.assertEqual(func_output, -40320)
 
     def test_fac_neg_zero(self):
         func_output = fact(-0)
